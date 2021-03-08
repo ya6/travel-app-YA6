@@ -1,0 +1,46 @@
+// Typescript tsconfig.json
+
+{
+    "compilerOptions": {
+//    +     
+        "noImplicitAny": false,
+    }
+}
+
+
+
+
+package.json
+
+npx create-react-app --template typescript ./
+
+
+// for deploy on gh-pages
+npm install gh-pages --save-dev
+
+// add sass
+npm install node-sass --save
+
+
+// for routing
+npm install react-router-dom
+npm i --save-dev @types/react-router-dom
+
+//for convenient  fetch
+npm install axios
+
+
+
+
+
+///data
+{
+    "compilerOptions": {
+        "target":"es5",
+        "noImplicitAny": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals":true,
+        "out": "dist/js/main.js"
+    }
+}

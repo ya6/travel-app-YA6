@@ -4,7 +4,7 @@ import { withRouter } from 'react-router-dom';
 const Card = (props: any) => {
     return (
         <div className="card brd" onClick={() => {
-           props.history.push(`${props.match.url}${props.id}`)
+           props.history.push(`${props.match.url}${props.title}`)
         }
         }>
             <h4>Card</h4>
